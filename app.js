@@ -15,8 +15,7 @@ const server = http.createServer(function(req, res) {
        res.end()
     })
 
-    res.write('Hello Node')
-    res.end()
+
 })
 server.listen(port, function(error) {
     if (error) {
