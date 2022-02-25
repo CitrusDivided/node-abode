@@ -1,4 +1,4 @@
-app.use(express.static('public'));
+//app.use('/css',express.static(public +'/css'));//
 const http = require('http')
 const fs = require('fs')
 const port = 3000
